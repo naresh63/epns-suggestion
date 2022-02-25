@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>counter</title>
+</head>
+<body>
+    <section class="project-details-section">
+        <div class="project-details-cont">
+            <div class="project-info">
+                <h1>$PUSH TOKEN</h1> 
+                <p>smart contract address : <a href="#">0xf418588522d5dd018b425E472991E52EBBeEEEEE</a></p>
+                <p>audited by : <a href="#"> ChainSafe audit</a>  </p>
+            </div>
+        </div>
+
+    </section>
+    <section class="counter-section">
+    <div class="epns-counter-cont">
+         <!--startup child-->
+        <div class="counter-startup">
+          <div><span>+</span> <button class="showlist-btn" onclick="showlist()">5</button></div> 
+          <div>startup using EPNS channel</div>
+          <div id="startuplist">
+              <button class="close-btn" onclick="closelist()">X</button>
+            <ul>
+                <li>polygon</li>
+                <li>aave</li>
+                <li>uniswap</li>
+                <li>ENS</li>
+                <li>maker</li>
+            </ul>
+          </div>
+        </div>
+        <div class="counter-user">
+          <div><span>+</span> <button class="count-user-btn">1000</button></div>
+          <div> user using EPNS subscriber</div>
+        </div>
+    </div>
+  </section>
+ <!-- user feeback section-->
+  <section class="user-feedback-section">
+      <h1>our happy users</h1>
+     <div class="user-feedback-cont">
+         <div class="user-card">
+             <div class="user-card-img"> </div>
+             <div class="user-card-body">
+                 <h2>Bitinning</h2>
+                 <p>I am getting my metaverse land update in wallet by EPNS. I am still exploring.</p>
+              </div>
+         </div>
+         <div class="user-card">
+            <div class="user-card-img"> </div>
+            <div class="user-card-body">
+                <h2>aden</h2>
+                <p>DEX  send a notification when the price of a token falls.</p>
+             </div>
+        </div>
+        <div class="user-card">
+            <div class="user-card-img"> </div>
+            <div class="user-card-body">
+                <h2>elit</h2>
+                <p>NFT marketplaces send notifications about specific items going live, or a specific rise or drop in the price of an NFT.</p>
+             </div>
+        </div>
+     </div>
+  </section>
+  <!--how to use EPNS  --> 
+  <section class="howtoUse-section">
+    <h1>How To Use EPNS</h1>
+      <div class="howtouse-cont">
+          <div class="step-box">
+              <h1>step 1:</h1>
+              <p>use must have wallet</p>
+            </div>
+          
+      </div>
+
+  </section>
+
+    <script>
+        console.log('hello world')
+        let list1=document.getElementById('startuplist');
+        function showlist(){
+            list1.style.display="block";
+        }
+        function closelist(){
+            list1.style.display="none";
+        }
+    </script>
+</body>
+</html>

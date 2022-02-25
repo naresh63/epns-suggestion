@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    box-sizing:border-box;
+}
+
+
+a{
+    text-decoration: none;
+    color:#35C5F3;
+}
+ /*****************************************/
+ .project-details-section{
+    background-color: #28132D;
+    color:white;
+    width:100%;
+    min-height:30vh;
+    border:1px solid #28132D;
+ }
+ .project-details-cont{
+     width:100%;
+     height:30vh;
+     
+ }
+ .project-info{
+   margin:50px;
+ }
+
+/****************************/
+.epns-counter-cont{
+    height:40vh;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #193142;
+    color:white;
+    padding:10px;
+}
+.counter-startup >div{
+    padding:10px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-left:-35px;
+    padding:5px;
+}
+
+
+#startuplist{
+    background-color: grey;
+    width:300px;
+    display:none;
+    position:relative; 
+    margin-top:-75px;
+    border-radius: 5px;
+    text-align:center;
+}
+.counter-user >div{
+    padding:10px;
+}
+.showlist-btn,.count-user-btn{
+    cursor: pointer;
+    width:70px;
+    height:28px;
+    background-color: #E00880;
+    border:1px solid grey;
+    border-radius: 5px;
+    color:white;
+}
+.close-btn{
+    margin-left:250px;
+    margin-top:10px;
+    border-radius:5px;
+    background-color:red;
+    color:white;
+    border:1px solid grey;
+}
+.count-user-btn{
+    width:80px;
+}
+/*******************************/
+.user-feedback-section{
+    background-color: #3E0A28;
+    color:white;
+    text-align: center;
+    padding:10px;
+}
+.user-feedback-cont{
+    width:100%;
+    min-height:60vh;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.user-card{
+    background-color: grey;
+    border-radius:5px;
+    width:200px;
+    min-height:250px;
+    padding:10px;
+    color:#222222;
+}
+.user-card-img{
+    width:100px;
+    margin:10px;
+    height:100px;
+    border:1px solid blue;
+    border-radius: 90%;
+    margin-left:50px;
+}
+.user-card-body{
+    width:100%;
+    height:130px;
+     
+}
+.user-card-body h2,p{
+    padding:5px;
+}
+/*****************************/
+.howtoUse-section{
+    background-color: #2E102C;
+    color:white;
+    padding:10px;
+    text-align: center;
+}
+
+.howtouse-cont{
+    width:100%;
+    height:40vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.step-box{
+    border:1px solid blue;
+    width:300px;
+    height:10vh;
+
+}
+
